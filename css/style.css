@@ -13,7 +13,12 @@ body {
     background: rgba(230, 230, 230, 0.8);
 }
 
-/* header の中にあるすべての li */
+/* 子孫要素: header の中にあるすべての li */
 header li {
     list-style: none;
+}
+
+/* 親子要素: header の直下にある nav */
+header > nav {
+    background-color: rgb(57, 136, 170);
 }
