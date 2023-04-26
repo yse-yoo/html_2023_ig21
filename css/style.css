@@ -7,3 +7,7 @@ body {
 #latest-posts {
     color: rgb(37, 80, 83);
 }
+
+.banner {
+    background: rgba(230, 230, 230, 0.8);
+}
