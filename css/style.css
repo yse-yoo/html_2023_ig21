@@ -1,5 +1,9 @@
 body {
+    color: rgb(70, 63, 63);
+    /* color: #a52a2a; */
+}
 
-    color: brown;
-
+/* id = latest-posts */
+#latest-posts {
+    color: rgb(37, 80, 83);
 }
