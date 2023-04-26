@@ -8,6 +8,12 @@ body {
     color: rgb(37, 80, 83);
 }
 
+/* class = banner */
 .banner {
     background: rgba(230, 230, 230, 0.8);
+}
+
+/* header の中にあるすべての li */
+header li {
+    list-style: none;
 }
