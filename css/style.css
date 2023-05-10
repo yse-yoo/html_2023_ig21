@@ -42,7 +42,7 @@ header li {
 
 /* 親子要素: header の直下にある nav */
 header > nav {
-    background-color: #3987aa;
+    /* background-color: #3987aa; */
 }
 
 h1 {
@@ -62,3 +62,19 @@ h2::before {
     content: "\01f414";
     margin-right: 10px;
 }
+
+a {
+    color: #3077be;
+}
+
+a:hover {
+    color: #d01a1a;
+}
+
+#latest-posts li:hover {
+    background: #ece7e7;
+}
+
+/* a:visited {
+    color: green;
+} */
