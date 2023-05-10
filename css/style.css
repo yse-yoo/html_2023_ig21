@@ -82,3 +82,11 @@ a:hover {
 /* a:visited {
     color: green;
 } */
+
+footer {
+    padding: 10px;
+    background: #3077be;
+    color: #ffffff;
+    text-align: right;
+    font-size: 0.7rem;
+}
