@@ -16,6 +16,12 @@ body {
     list-style: none;
 } 
 
+.date-label {
+    background: #2677a9;
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
 /* class = banner */
 .banner {
     background: rgba(230, 230, 230, 0.8);
