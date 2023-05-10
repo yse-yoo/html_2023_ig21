@@ -52,6 +52,7 @@ h2 {
     font-size: 1.2em;
     padding: 10px;
     color: #3987aa;
-    border: 1px solid #3987aa;
-    border-radius: 15px;
+    /* border: 1px solid #3987aa;
+    border-radius: 15px; */
+    border-bottom: 1px solid #3987aa;
 }
