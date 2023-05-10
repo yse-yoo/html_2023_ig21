@@ -22,6 +22,11 @@ body {
     font-size: 0.5rem;
 }
 
+.new {
+    color: rgb(197, 57, 57);
+    font-size: 0.7rem;
+}
+
 /* class = banner */
 .banner {
     background: rgba(230, 230, 230, 0.8);
