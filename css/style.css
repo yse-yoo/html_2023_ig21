@@ -2,10 +2,9 @@ body {
     color: rgb(70, 63, 63);
     /* color: #a52a2a; */
 
-    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', 'Meiryo', "Helvetica Neue", sans-serif;
-    /* font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; */
+    /* font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', 'Meiryo', "Helvetica Neue", sans-serif; */
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-
 
 /* id = latest-posts */
 #latest-posts {
@@ -42,7 +41,7 @@ header li {
 
 /* 親子要素: header の直下にある nav */
 header > nav {
-    background-color: rgb(57, 136, 170);
+    background-color: #3987aa;
 }
 
 h1 {
@@ -51,4 +50,8 @@ h1 {
 
 h2 {
     font-size: 1.2em;
+    padding: 10px;
+    color: #3987aa;
+    border: 1px solid #3987aa;
+    border-radius: 15px;
 }
