@@ -108,3 +108,7 @@ footer {
 #profile .background {
     background-image: url(../images/ez.jpg);
 }
+
+.container {
+    margin: 0 30px;
+}
