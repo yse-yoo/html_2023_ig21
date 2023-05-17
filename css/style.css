@@ -104,3 +104,7 @@ footer {
 #top .background {
     background-image: url(../images/tokyo_station.jpg);
 }
+
+#profile .background {
+    background-image: url(../images/ez.jpg);
+}

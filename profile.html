@@ -10,39 +10,53 @@
 </head>
 
 <body>
+
     <body>
-    <nav>
-        <a href="./">Top</a>
-        <a href="./profile.html">Profile</a>
-    </nav>
-
-    <div>
-        <!-- メモ: Ctrl + / -->
-        <h1>プロフィール</h1>
-        <!-- idプロパティ: div#profile-image -->
-        <div id="profile-image">
-            <!-- classプロパティ: img.image -->
-           <img src="./images/me.png" alt="" class="image">
-        </div>
-
-        <div>
-            <h2>名前</h2>
-            <p>YSE</p>
-        </div>
-
-        <!-- Formatter: Shift + Alt + F -->
-        <div>
-            <h2>趣味</h2>
-            <div>
-                <!-- 親子要素: ul>li -->
+        <header>
+            <nav>
                 <ul>
-                    <li>スポーツ</li>
-                    <li>旅行</li>
-                    <li>音楽</li>
+                    <li>
+                        <a href="./">Top</a>
+                    </li>
+                    <li>
+                        <a href="./profile.html">Profile</a>
+                    </li>
                 </ul>
+            </nav>
+        </header>
+
+        <main id="profile">
+            <section id="banner">
+                <div class="background">
+                </div>
+            </section>
+
+            <!-- メモ: Ctrl + / -->
+            <h1>プロフィール</h1>
+            <!-- idプロパティ: div#profile-image -->
+            <div id="profile-image">
+                <!-- classプロパティ: img.image -->
+                <img src="./images/me.png" alt="" class="image">
             </div>
-        </div>
-    </div>
-</body>
+
+            <div>
+                <h2>名前</h2>
+                <p>YSE</p>
+            </div>
+
+            <!-- Formatter: Shift + Alt + F -->
+            <div>
+                <h2>趣味</h2>
+                <div>
+                    <!-- 親子要素: ul>li -->
+                    <ul>
+                        <li>スポーツ</li>
+                        <li>旅行</li>
+                        <li>音楽</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
 
 </html>
