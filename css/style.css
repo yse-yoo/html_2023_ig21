@@ -40,9 +40,15 @@ body {
     background: rgba(230, 230, 230, 0.8);
 }
 
+header ul {
+    display: flex;
+    padding: 0 10px;
+    list-style: none;
+}
+
 /* 子孫要素: header の中にあるすべての li */
 header li {
-    list-style: none;
+    padding: 10px;
 }
 
 /* 親子要素: header の直下にある nav */
